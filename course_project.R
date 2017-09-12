@@ -60,5 +60,10 @@ names(final_set)[names(final_set)=="subject$SBJ"]<-"Subject"
 names(final_set)[names(final_set)=="activity$ACT_LBL"]<-"Activity"
 
 #Aggregating to calculate average, grouping by Subject and Activity
-final_set_means<-aggregate(final_set[,3:ncol(final_set)],list(final_set$Subject,final_set$Activity),mean)
+tidy_data<-aggregate(final_set[,3:ncol(final_set)],list(final_set$Subject,final_set$Activity),mean)
 
+#Cleaning the subject and activity column names
+names(tidy_data)[names(tidy_data)=="Group.1"]<-"Subject"
+names(tidy_data)[names(tidy_data)=="Group.2"]<-"Activity"
+
+order(tidy_data,tidy_data$Subject,tidy_data$Activity)
