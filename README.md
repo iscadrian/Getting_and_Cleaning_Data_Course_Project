@@ -11,7 +11,7 @@ Data Source
 
 The raw data comes from UCI HAR Data Set. Which is composed by the following files:
 
-*Test Measures Data (x_test.txt)
+Markup:*Test Measures Data (x_test.txt)
 *Activity Test Data (y_test.txt
 *Subject Test Data  (subject_test.txt)
 *Train Measures Data (x_train.txt)
