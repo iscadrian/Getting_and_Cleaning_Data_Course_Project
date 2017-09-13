@@ -20,6 +20,19 @@ Markup : * Test Measures Data (x_test.txt)
 
 There are Inertial Signal folders that contains complimentary data, however we are not using is for this project
 
+
+* Bullet list
+    * Nested bullet
+        * Sub-nested bullet etc
+* Bullet list item 2
+
+~~~
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+~~~
+
 The Script
 ------------------------------------------
 The script created to load and transform the data is called course_project.R. In order to execute this script, the raw data should be extracted in the same directory as the script
