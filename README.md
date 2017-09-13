@@ -22,7 +22,7 @@ There are Inertial Signal folders that contains complimentary data, however we a
 
 The Script
 ------------------------------------------
-The script created to load and transform the data is called course_project.R. In order to execute this script, the raw data should be extracted in the same directory as the script
+The script created to load and transform the data is called run_analysis.R. In order to execute this script, the raw data should be extracted in the same directory as the script
 
 Once loaded and processed the data, the script will write a file in the same directory containing the tidy data set
 
