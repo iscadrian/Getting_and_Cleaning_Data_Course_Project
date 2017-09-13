@@ -66,4 +66,6 @@ tidy_data<-aggregate(final_set[,3:ncol(final_set)],list(final_set$Subject,final_
 names(tidy_data)[names(tidy_data)=="Group.1"]<-"Subject"
 names(tidy_data)[names(tidy_data)=="Group.2"]<-"Activity"
 
-order(tidy_data,tidy_data$Subject,tidy_data$Activity)
+tidy_data_sorted<-tidy_data[order(tidy_data$Subject,tidy_data$Activity),]
+
+write.table(tidy_data_sorted,"Data_Cleaning/Course_Project/tidy_data.csv", sep = ",",row.names = FALSE)
