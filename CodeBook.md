@@ -3,7 +3,7 @@ CodeBook
 
 Data Source
 --------------------------------------------
-Test data is read by creating a data frame that includes the subject, activity and features data. This is, using the cbind function subject_test.txt, y_test.txt and x_test.txt are binded in that order to create the Test Data Set. This can be done because the subject_test.txt, y_test.txt and x_test.txt have the same number of records. Same for Train data.
+Test data is read by creating a data frame that includes the subject, activity and features data. This is, using the cbind() function subject_test.txt, y_test.txt and x_test.txt are binded in that order to create the Test Data Set. This can be done because the subject_test.txt, y_test.txt and x_test.txt have the same number of records. Same for Train data.
 
 Once the Test Data and Train Data sets are created, they are ready to merge
 
