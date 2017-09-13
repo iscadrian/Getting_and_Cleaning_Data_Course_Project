@@ -11,27 +11,21 @@ Data Source
 
 The raw data comes from UCI HAR Data Set. Which is composed by the following files:
 
-Markup : * Test Measures Data (x_test.txt)
-         * Activity Test Data (y_test.txt
-         * Subject Test Data  (subject_test.txt)
-         * Train Measures Data (x_train.txt)
-         * Activity Train Data (y_train.txt)
-         * Subject Train Data (subject_train.txt)
+* Test Measures Data (x_test.txt)
+* Activity Test Data (y_test.txt
+* Subject Test Data  (subject_test.txt)
+* Train Measures Data (x_train.txt)
+* Activity Train Data (y_train.txt)
+* Subject Train Data (subject_train.txt)
 
 There are Inertial Signal folders that contains complimentary data, however we are not using is for this project
 
 
-* Bullet list
+* Test Measures Data (x_test.txt)
     * Nested bullet
         * Sub-nested bullet etc
 * Bullet list item 2
 
-~~~
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
-~~~
 
 The Script
 ------------------------------------------
